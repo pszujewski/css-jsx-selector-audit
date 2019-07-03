@@ -1,18 +1,32 @@
 {
-  "name": "css-jsx-selector-audit",
-  "version": "1.0.0",
-  "description": "Cleans up your css by reducing a given css file to only the rules that are used in your project files",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "\u0016\u0016https://github.com/pszujewski/css-jsx-selector-audit"
-  },
-  "keywords": [
-    "css"
-  ],
-  "author": "Treeline Dev <dev@abovethetreeline.com>",
-  "license": "ISC"
+	"name": "css-jsx-selector-audit",
+	"version": "1.0.0",
+	"description": "Cleans up your css by reducing a given css file to only the rules that are used in your project files",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha --require @babel/register test/**/*.spec.js",
+		"start": "node ./node_modules/.bin/babel-node src/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pszujewski/css-jsx-selector-audit"
+	},
+	"keywords": [
+		"css"
+	],
+	"author": "Treeline Dev <dev@abovethetreeline.com>",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/cli": "^7.4.4",
+		"@babel/core": "^7.4.5",
+		"@babel/node": "^7.4.5",
+		"@babel/preset-env": "^7.4.5",
+		"@babel/register": "^7.4.4",
+		"chai": "^4.2.0",
+		"eslint": "^6.0.1",
+		"eslint-config-prettier": "^6.0.0",
+		"eslint-plugin-mocha": "^5.3.0",
+		"mocha": "^6.1.4",
+		"prettier": "^1.18.2"
+	}
 }
