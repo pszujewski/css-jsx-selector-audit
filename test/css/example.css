@@ -1,0 +1,261 @@
+p.ePlusP5px {
+	margin: 5px 0;
+}
+
+hr.ePlusHr {
+	margin: 10px 0;
+	border-top: 1px solid #969ea4;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+}
+
+.ePlusButton {
+	font-family: Open Sans;
+	font-size: 13px;
+	outline: 0;
+	border: 0;
+	background: white;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+.ePlusButtonSlim {
+	font-family: Open Sans;
+	font-size: 13px;
+	outline: 0;
+	border: 0;
+	background: white;
+	padding: 2px 5px;
+	cursor: pointer;
+}
+
+.ePlusDialogButton {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	background: none;
+	cursor: pointer;
+	line-height: 1;
+	margin-left: 5px;
+}
+
+.ePlusDialogButtonWithText {
+	background: white;
+	padding: 8px 20px;
+}
+
+.ePlusDialogButtonIconSpan {
+	position: relative;
+	top: 3px;
+}
+
+.ePlusDialogButtonTextSpan {
+	font-family: "Open Sans";
+}
+
+ul.ePlusTabs {
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 5px 0;
+	overflow: hidden;
+	background-color: #e9ebec;
+}
+
+ul.ePlusTabs > li {
+	float: left;
+}
+
+ul.ePlusTabs > li a {
+	display: block;
+	text-align: center;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+ul.ePlusTabs li a.selected {
+	color: white;
+	background-color: #fc601f;
+}
+
+ul.ePlusTabs li a:hover {
+	color: white;
+	background-color: #969ea4;
+}
+
+ul.ePlusPopupMenu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding: 5px;
+}
+
+ul.ePlusPopupMenu li {
+	margin-bottom: 5px;
+}
+
+ul.ePlusPopupMenu li.last {
+	margin-bottom: 0;
+}
+
+ul.ePlusPopupMenu li:hover {
+	font-weight: bold;
+}
+
+.ePlusDialogTitle {
+	cursor: default;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 500px;
+}
+
+.ePlusGridTitleDiv {
+	clear: both;
+	font-weight: bold;
+	color: #fc601f;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.ePlusDialogTitleDivBold {
+	clear: both;
+	font-weight: bold;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 95%;
+}
+
+.ePlusDialogTitleDiv {
+	clear: both;
+	color: #fc601f;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 95%;
+}
+
+.ePlusDialogNonTitleText {
+	color: #666;
+}
+
+div.ePlusDialog {
+	font-family: "Open Sans", Verdana, sans-serif;
+	font-size: 13px;
+	position: fixed;
+	background-color: #e9ebec;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	cursor: auto;
+}
+
+.ePlusDialogBlock {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	cursor: not-allowed;
+}
+
+.ePlusBlockingDiv {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	cursor: not-allowed;
+	display: none;
+}
+
+.ePlusDialogModalBlock {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	cursor: not-allowed;
+}
+
+.eplus-dialog-loading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	left: 50%;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.eplus-dialog-loading-text {
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0 0 0 10px;
+}
+
+button.ePlusDialogCloseButton {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	background: none;
+	cursor: pointer;
+}
+
+h1.ePlusDialogHeader {
+	cursor: default;
+	margin: 10px 0;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+form.ePlusDialogForm {
+	margin: 20px;
+	padding: 0;
+}
+
+form.ePlusDialogForm input,
+.addEditUserAddressControl input {
+	box-sizing: border-box;
+	padding: 8px 10px;
+	border: 0;
+	outline: 0;
+	background-color: #fff;
+	font-family: Open Sans;
+}
+
+p.ePlusDialogFooter {
+	text-align: right;
+	margin: 10px 0;
+}
+
+.textMedium {
+	font-size: 13px;
+}
+
+.textLarge {
+	font-size: 15px;
+}
+
+.textSmall {
+	font-size: 11px;
+}
+
+.textExtraLarge {
+	font-size: 18px;
+}
+
+.textExtraSmall {
+	font-size: 9px;
+}
+
+.noHover {
+	cursor: default !important;
+}
